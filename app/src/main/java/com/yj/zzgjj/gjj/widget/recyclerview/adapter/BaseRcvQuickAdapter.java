@@ -154,6 +154,11 @@ public abstract class BaseRcvQuickAdapter<T, H extends BaseRcvAdapterHelper> ext
         notifyDataSetChanged();
     }
 
+    public void addAllToLocation(int index, List<T> elem){
+        data.addAll(index, elem);
+        notifyDataSetChanged();
+    }
+
     public void update(List<T> elem) {
         data = elem;
         notifyDataSetChanged();

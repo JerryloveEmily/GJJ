@@ -14,6 +14,7 @@
     <color name="gray5">#848484</color>
     <color name="gray6">#B7B7B7</color>
     <color name="gray7">#E1E1E1</color>
+    <color name="gray8">#E7E7E7</color>
     <color name="blue1">#1F95F0</color>
 
     <color name="divide">@color/gray7</color>
@@ -28,9 +29,11 @@
     
     <!--首页-->
     <color name="color_my_gjj">#FF687A</color>
-    <color name="color_guide">#5EBF00</color>
+    <color name="color_guide">#FFAB4A</color>
     <color name="color_flow">#10B7E7</color>
-    <color name="color_material">#FFAB4A</color>
+    <color name="color_loan">#10B7E7</color>
+    <color name="color_policy">#5EBF00</color>
+    <color name="color_material">#00BFB5</color>
     <color name="color_local_policy">#F1663E</color>
     <color name="color_online_questions">#00BFB5</color>
 

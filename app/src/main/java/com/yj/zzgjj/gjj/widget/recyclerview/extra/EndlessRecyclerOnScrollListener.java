@@ -1,4 +1,4 @@
-package com.android.base.widget.recyclerview.extra;
+package com.yj.zzgjj.gjj.widget.recyclerview.extra;
 
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
@@ -11,7 +11,8 @@ import android.view.View;
  * <p/>
  * 继承自RecyclerView.OnScrollListener，可以监听到是否滑动到页面最低部
  */
-public class EndlessRecyclerOnScrollListener extends RecyclerView.OnScrollListener implements OnListLoadNextPageListener {
+public class EndlessRecyclerOnScrollListener extends RecyclerView.OnScrollListener
+        implements OnListLoadNextPageListener {
 
     /**
      * 当前RecyclerView类型

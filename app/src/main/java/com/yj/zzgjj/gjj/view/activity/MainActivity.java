@@ -108,7 +108,6 @@ public class MainActivity extends AppCompatActivity {
                     ft.show(settingFragment);
                 }
                 break;
-
         }
         ft.commitAllowingStateLoss();
     }

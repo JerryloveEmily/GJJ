@@ -9,7 +9,7 @@
         android:id="@+id/iv_icon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/ic_tab_daily_press"
+        android:src="@drawable/ic_policy"
         android:contentDescription="@string/app_name"
         />
 

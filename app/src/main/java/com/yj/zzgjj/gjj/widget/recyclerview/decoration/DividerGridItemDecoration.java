@@ -1,4 +1,4 @@
-package com.android.base.widget.recyclerview.decoration;
+package com.yj.zzgjj.gjj.widget.recyclerview.decoration;
 
 import android.content.Context;
 import android.content.res.TypedArray;

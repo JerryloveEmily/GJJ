@@ -1,4 +1,4 @@
-package com.android.base.widget.recyclerview.extra;
+package com.yj.zzgjj.gjj.widget.recyclerview.extra;
 
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.RecyclerView;

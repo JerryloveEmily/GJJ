@@ -12,7 +12,7 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 
 /**
- * 在线问答
+ * 贷款指南
  */
 public class LoanActivity extends Activity {
 
@@ -27,7 +27,7 @@ public class LoanActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_online_questions);
+        setContentView(R.layout.activity_loan);
         initView();
         initEvent();
     }
@@ -45,7 +45,7 @@ public class LoanActivity extends Activity {
         ResouceUtils.setResourceCompoundDrawables(this, mTvTitleBarLeft,
                 R.drawable.ic_top_back, 0, 0, 0);
         mTvTitleBarLeft.setCompoundDrawablePadding(10);
-        mTvTitleBarTitle.setText(getResources().getString(R.string.string_online_questions));
+        mTvTitleBarTitle.setText(getResources().getString(R.string.string_loan));
         mTvTitleBarSignIn.setVisibility(View.GONE); // 隐藏
     }
 

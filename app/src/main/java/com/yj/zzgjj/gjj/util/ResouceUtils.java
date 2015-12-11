@@ -39,13 +39,7 @@ public class ResouceUtils {
     @ColorInt
     public static int getRescourceColor(@NonNull Context context,
                                         @ColorRes int colorId){
-        int color;
-        if (Build.VERSION.SDK_INT < Build.VERSION_CODES.M) {
-            color = context.getResources().getColor(colorId);
-        } else {
-            color = context.getResources().getColor(colorId, context.getTheme());
-        }
-        return color;
+        return getRescourceColor(context, colorId, context.getTheme());
     }
 
     /**

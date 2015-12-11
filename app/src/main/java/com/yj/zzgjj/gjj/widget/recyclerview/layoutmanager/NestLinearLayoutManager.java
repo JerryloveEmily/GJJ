@@ -1,4 +1,4 @@
-package com.android.base.widget.recyclerview.layoutmanager;
+package com.yj.zzgjj.gjj.widget.recyclerview.layoutmanager;
 
 import android.content.Context;
 import android.support.v7.widget.LinearLayoutManager;

@@ -1,4 +1,4 @@
-package com.android.base.widget.recyclerview.decoration;
+package com.yj.zzgjj.gjj.widget.recyclerview.decoration;
 
 /*
  * Copyright (C) 2014 The Android Open Source Project

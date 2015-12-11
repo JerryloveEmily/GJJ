@@ -12,7 +12,7 @@ import butterknife.Bind;
 import butterknife.ButterKnife;
 
 /**
- * 本地政策
+ * 政策法规
  */
 public class PolicyActivity extends Activity {
 
@@ -27,7 +27,7 @@ public class PolicyActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_local_policy);
+        setContentView(R.layout.activity_policy);
         initView();
         initEvent();
     }
