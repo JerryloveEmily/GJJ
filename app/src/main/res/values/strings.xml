@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">GJJ</string>
+    <string name="back_text">返回</string>
+
+    <!-- 首页 -->
+    <string name="string_zjgjj">漳州市住房公积金</string>
+    <string name="string_welcome">尊敬的用户, 下午好！\n欢迎使用漳州市掌上住房公积金</string>
+    <string name="string_my_gjj">我的公积金</string>
+    <string name="string_guide">办事指南</string>
+    <string name="string_flow">办事流程</string>
+    <string name="string_material">提取材料</string>
+    <string name="string_local_policy">本地政策</string>
+    <string name="string_online_questions">在线问答</string>
+
+    <!--便民服务-->
+    <string name="string_server">便民服务</string>
+    <!--个人中心-->
+    <string name="string_account">个人中心</string>
+    <!--设置-->
+    <string name="string_setting">设置</string>
+</resources>

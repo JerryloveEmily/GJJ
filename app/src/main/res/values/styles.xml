@@ -1,0 +1,25 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppThemeBase" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!--激活的thumb颜色 和 激活的track颜色（30%透明度）-->
+        <item name="colorControlActivated">@color/colorPrimary</item>
+        <item name="android:windowAnimationStyle">@style/anim_activity</item>
+    </style>
+
+    <!-- activity跳转动画 -->
+    <style name="anim_activity" mce_bogus="1" parent="@android:style/Animation.Activity">
+        <!--打开activity-->
+        <item name="android:activityOpenEnterAnimation">@anim/activity_slide_right_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/keep_stay</item>
+        <!--关闭activity-->
+        <item name="android:activityCloseEnterAnimation">@anim/keep_stay</item>
+        <item name="android:activityCloseExitAnimation">@anim/activity_slide_right_out</item>
+    </style>
+
+    <style name="AppTheme" parent="@style/AppThemeBase"/>
+
+</resources>

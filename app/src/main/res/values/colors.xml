@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0891D9</color>
+    <color name="colorPrimaryDark">#0871D9</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#0000</color>
+    <color name="gray1">#D3D3D3</color>
+    <color name="gray2">#666666</color>
+    <color name="gray3">#999999</color>
+    <color name="gray4">#1Affffff</color>
+    <color name="gray5">#848484</color>
+    <color name="gray6">#B7B7B7</color>
+    <color name="gray7">#E1E1E1</color>
+    <color name="blue1">#1F95F0</color>
+
+    <color name="divide">@color/gray7</color>
+
+    <!--标题栏-->
+    <color name="title_bar_press">@color/gray1</color>
+    <color name="title_bar_normal">@color/white</color>
+    <color name="title_bar_title">@color/white</color>
+    <!--  -->
+    <color name="press_color">@color/white</color>
+    <color name="normal_color">#54BBF1</color>
+    
+    <!--首页-->
+    <color name="color_my_gjj">#FF687A</color>
+    <color name="color_guide">#5EBF00</color>
+    <color name="color_flow">#10B7E7</color>
+    <color name="color_material">#FFAB4A</color>
+    <color name="color_local_policy">#F1663E</color>
+    <color name="color_online_questions">#00BFB5</color>
+
+</resources>
